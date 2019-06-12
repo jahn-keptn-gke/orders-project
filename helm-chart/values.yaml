@@ -43,8 +43,8 @@ orderService:
         name: order-service
     image:
         pullPolicy: IfNotPresent
-        repository: null
-        tag: null
+        repository: robjahn/order-service
+        tag: 1
     replicaCount: 1
     resources:
         limits:
