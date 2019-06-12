@@ -43,7 +43,7 @@ orderService:
         name: order-service
     image:
         pullPolicy: IfNotPresent
-        repository: robjahn/order-service
+        repository: robjahn/keptn-orders-order-service
         tag: 1
     replicaCount: 1
     resources:
