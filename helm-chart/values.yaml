@@ -23,8 +23,8 @@ customerService:
         name: customer-service
     image:
         pullPolicy: IfNotPresent
-        repository: null
-        tag: null
+        repository: robjahn/keptn-orders-customer-service
+        tag: 1
     replicaCount: 1
     resources:
         limits:
